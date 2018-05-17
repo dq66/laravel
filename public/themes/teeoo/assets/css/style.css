@@ -1,0 +1,44 @@
+article .mdui-card {
+    margin-top: 47.59px;
+}
+.mdui-overlay-show{
+    opacity:0;
+}
+@media screen and (max-width: 2000px) {
+    .mdui-drawer-open {
+        width: 280px;
+    }
+
+    .mdui-container-fluid {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .mdui-drawer-open {
+        width: 280px;
+    }
+
+    .mdui-container-fluid {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mdui-drawer-open {
+        width: 240px;
+    }
+
+    #header {
+        margin-top: 20px;
+        margin-left: 20px;
+        z-index: 1000;
+    }
+
+    .mdui-container-fluid {
+        width: 100%;
+        margin-top: -180px;
+    }
+
+}
+
